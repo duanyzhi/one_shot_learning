@@ -17,17 +17,17 @@ data
 -------------| 0709_01.pag      
 -------------| 0709_02.png       
               ...  
-          | character02    
+----------| character02    
             ...  
      |Anglo-Saxon_Futhorc  
-          |character01  
-             ...  
-          ...    
-     ...  
-  | images_evaluation  
-      | Angelic  
-         | character01    
-             | 0965_01.pag  
+----------|character01  
+-------------...  
+---------...    
+-----...  
+----| images_evaluation  
+-------| Angelic  
+----------| character01    
+-------------| 0965_01.pag  
 
 
 mkdir data/ckpt    
