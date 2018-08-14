@@ -10,7 +10,7 @@ download Omniglot data: python/images_background.zip python images_evaluation.zi
 
 put Omniglot data in data folder and unzip them and your data folder like this:  
 
-data  
+data   
    | images_background  
       |Alphabet_of_the_Magi  
           | character01  
@@ -50,8 +50,8 @@ iter:1000
 batch_size:32  
 
 five-ways-five-shot:   
-[ACC](https://github.com/duanyzhi/one_shot_learning/blob/master/data/png/acc.png)  
+![ACC](https://github.com/duanyzhi/one_shot_learning/blob/master/data/png/acc.png)  
 
-[LOSS](https://github.com/duanyzhi/one_shot_learning/blob/master/data/png/loss.png)  
+![LOSS](https://github.com/duanyzhi/one_shot_learning/blob/master/data/png/loss.png)  
 
 I just run 1000 iter, so you can run more for better acc  
