@@ -4,6 +4,7 @@ import tensorflow as tf
 def cd(memory_images, x_target):
     cosine_distance = []
     """
+    memory_images: ways*shot个[batch_size, 64]
     support_image：[32, 64]  sum_support:[32, 1]
     support_magnitude：[32，1]
     dot_product:    [32, 1, 1]
@@ -23,10 +24,9 @@ def cd(memory_images, x_target):
         cosine_similarity = dot_product * support_magnitude  #
         # print(2, cosine_similarity.shape)
         cosine_distance.append(cosine_similarity)
-    similarities = tf.concat(axis=1, values=cosine_distance)           # [32,5]
+    similarities = tf.concat(axis=1, values=cosine_distance)           # size: [batch_size, cfg.ways*cfg.shot]
     softmax_a = tf.nn.softmax(similarities)
     return softmax_a, similarities
-
 
 def compute_distance(memory_images, x_target):
     cosine_distance = []
@@ -59,3 +59,5 @@ def compute_distance(memory_images, x_target):
     similarities = tf.concat(axis=1, values=cosine_distance)           # [32,5]
     softmax_a = tf.nn.softmax(similarities)
     return softmax_a, similarities, r
+
+# ------------------------------------------------------------------------------
