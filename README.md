@@ -54,4 +54,4 @@ five-ways-five-shot:
 
 ![LOSS](https://github.com/duanyzhi/one_shot_learning/blob/master/data/png/loss.png)  
 
-I just run 1000 iter, so you can run more for better acc  
+I just run 1000 iter, but you can run more for better acc  
