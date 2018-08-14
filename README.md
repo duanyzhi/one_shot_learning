@@ -11,11 +11,11 @@ download Omniglot data: python/images_background.zip python images_evaluation.zi
 put Omniglot data in data folder and unzip them and your data folder like this:  
 
 data   
-    | images_background  
-      |Alphabet_of_the_Magi  
-          | character01  
-             | 0709_01.pag      
-             | 0709_02.png       
+----| images_background  
+-------|Alphabet_of_the_Magi  
+----------| character01  
+-------------| 0709_01.pag      
+-------------| 0709_02.png       
               ...  
           | character02    
             ...  
