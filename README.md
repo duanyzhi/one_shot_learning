@@ -13,19 +13,23 @@ put Omniglot data in data folder and unzip them and your data folder like this:
 data
 
 ```  
-	images_background 
-	    ├── Alphabet_of_the_Magi  
-      │   └── character01  
-	      │   └── *.xml  
-	    │  
-	    ├── ImageSets  
-	    │   └── Main  
-	    │       ├── train.txt  
-	    │       └── test.txt  
-		│       └── trainval.txt  
-		│       └── val.txt  
-	    └── PNGImages  
-	        └── **.png   
+ images_background  
+    Alphabet_of_the_Magi  
+       character01  
+           0709_01.pag      
+           0709_02.png       
+              ...  
+----------| character02    
+            ...  
+     |Anglo-Saxon_Futhorc  
+----------|character01  
+-------------...  
+---------...    
+-----...  
+----| images_evaluation  
+-------| Angelic  
+----------| character01    
+-------------| 0965_01.pag 
 
 ```   
 
