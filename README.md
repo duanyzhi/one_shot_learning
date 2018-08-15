@@ -10,7 +10,7 @@ download Omniglot data: python/images_background.zip python images_evaluation.zi
 
 put Omniglot data in data folder and unzip them and your data folder like this:  
 
-data
+data:
 
 ```  
  images_background  
@@ -19,37 +19,18 @@ data
            0709_01.pag      
            0709_02.png       
               ...  
-----------| character02    
+       character02    
             ...  
-     |Anglo-Saxon_Futhorc  
-----------|character01  
--------------...  
----------...    
------...  
-----| images_evaluation  
--------| Angelic  
-----------| character01    
--------------| 0965_01.pag 
+    Anglo-Saxon_Futhorc  
+    ....
+
+ images_evaluation  
+    Angelic  
+        character01    
+            0965_01.pag 
+            ...
 
 ```   
-
-├── images_background  
-  ├── Alphabet_of_the_Magi  
-     ├── character01  
-     │   └──0709_01.pag      
-         └──0709_02.png       
-              ...  
-----------| character02    
-            ...  
-     |Anglo-Saxon_Futhorc  
-----------|character01  
--------------...  
----------...    
------...  
-----| images_evaluation  
--------| Angelic  
-----------| character01    
--------------| 0965_01.pag  
 
 
 mkdir data/ckpt    
