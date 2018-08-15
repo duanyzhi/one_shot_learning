@@ -46,7 +46,7 @@ python main --pattern test      # test
 
 # Result
 It is easy to get high accuracy for one shot learning model with omniglot  
-iter:1000  
+iter:2000  
 batch_size:32  
 
 five-ways-five-shot:   
@@ -54,4 +54,4 @@ five-ways-five-shot:
 
 ![LOSS](https://github.com/duanyzhi/one_shot_learning/blob/master/data/png/loss.png)  
 
-I just run 1000 iter, but you can run more for better acc  
+I just run 2000 iter, but you can run more for better acc  
